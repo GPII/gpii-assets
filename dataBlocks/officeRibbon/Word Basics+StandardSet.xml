@@ -20,7 +20,7 @@
       </mso:sharedControls>
     </mso:qat>
     <mso:tabs>
-      <mso:tab id="morphic.basics" label=" Basics (Morphic)" insertBeforeQ="mso:TabBlogPost">
+      <mso:tab id="morphic.basics" visible="true" label=" Basics (Morphic)" insertBeforeQ="mso:TabBlogPost">
         <mso:group id="mso_c2.EDC33" label="                                                                                                                                                                            .                                 ." autoScale="true">
           <mso:control idQ="mso:FileNewDefault" visible="true" />
           <mso:control idQ="mso:FileSave" visible="true" />

@@ -49,7 +49,7 @@
           <mso:control idQ="mso:ToggleLearningTools" visible="true" />
         </mso:group>
       </mso:tab>
-      <mso:tab id="morphic.essentials" label="Essentials (Morphic)" insertBeforeQ="mso:TabBlogPost">
+      <mso:tab id="morphic.essentials" visible="true" label="Essentials (Morphic)" insertBeforeQ="mso:TabBlogPost">
         <mso:group id="mso_c23.1B75B9" label="FILE         PRINT        FORMAT" autoScale="true">
           <mso:control idQ="mso:FileNewDialogClassic" label="New " visible="true" />
           <mso:gallery idQ="mso:PageMarginsGallery" showInRibbon="false" visible="true" />
