@@ -1,0 +1,77 @@
+[
+  {
+    "title": "Commonly changed settings",
+    "items": [
+      {
+        "title": "Show QuickStrip when Windows starts",
+        "body": "Do you want the QuickStrip to be visible automatically each time Windows starts up.",
+        "machineName": "qss.showQssOnStart",
+        "controlType": "Checkbox"
+      },
+      {
+        "title": "Hide QuickStrip if click elsewhere?",
+        "body": "Do you want the QuickStrip to auto-hide if user clicks anywhere outside of the QuickStrip or MORE panels? (If NO then QuickStrip stays open until user closes it with close button [X])",
+        "machineName": "closeQssOnClickOutside",
+        "controlType": "Checkbox"
+      },
+      {
+        "title": "Buttons on the QuickStrip and MORE PANEL for Site",
+        "body": "Determines which buttons will be displayed, and in which order, on the QuickStrip and MORE panels for your site. Customize this setting to control the functionality that is available to your users at your site.",
+        "machineName": "qss.buttonList",
+        "controlType": "Button"
+      },
+      {
+        "title": "Save Error Message - when not keyed in.",
+        "body": "This defines the message that is displayed to the user when they click the Save button when they are not signed into Morphic. (NOTE: clicking Reset to Standard button will sign them out of Morphic.)",
+        "machineName": "qss.messages.keyedOut",
+        "controlType": "MultilineTextField"
+      },
+      {
+        "title": "QuickFolder Location",
+        "body": "Enter the website that the QuickFolder button should open for your site.",
+        "machineName": "qss.urls.cloudFolder",
+        "controlType": "TextField"
+      },
+      {
+        "title": "Shared Logins",
+        "body": "If you have some logins that are shared by different people (e.g. visitor, guest, temp, etc.) then please list them here.  It will prevent people from SAVING settings while logged in using these names -- so that the next user will not experience the settings of the previous user of the shared login name.   You can use actual longin names or patterns like  admin*, guest*, student*, visitor*, volunteer*",
+        "machineName": "autoLogin.blockedUsers",
+        "controlType": "TextField"
+      }
+    ]
+  },
+  {
+    "title": "Settings that are usually not changed, but can be",
+    "items": [
+      {
+        "title": "Tooltip Display Delay (in milliseconds)",
+        "body": "Changes the time delay before a tooltip is displayed (when hovering on something in the QuickStrip).",
+        "machineName": "qss.tooltipDisplayDelay",
+        "controlType": "NumericField"
+      },
+      {
+        "title": "QuickStrip Scale Factor",
+        "body": "Changes the size of the QuickStrip. Increasing this value makes the QuickStrip bigger.",
+        "machineName": "qss.scaleFactor",
+        "controlType": "NumericField"
+      },
+      {
+        "title": "Disable \"Restart Warnings\" for Apps",
+        "body": "Do you want to disable the warning that tells users that they may have to restart their apps in order for a changed settings to be fully applied. For example, this notification is usually displayed for the Language setting.",
+        "machineName": "disableRestartWarning",
+        "controlType": "Checkbox"
+      }
+    ]
+  },
+  {
+    "title": "Special settings for unusual situations",
+    "items": [
+      {
+        "title": "DocuMorph Executable File Location",
+        "body": "The file path to the DocuMorph executable to use in the QuickStrip document conversion features. DocuMorph is included in the Quickstrip, so you do not need to change this setting. However, you can do so if you wish to use a custom version of DocuMorph.",
+        "machineName": "qss.docuMorphExecutable",
+        "controlType": "TextField"
+      }
+    ]
+  }
+]
