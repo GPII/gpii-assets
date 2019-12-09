@@ -34,7 +34,7 @@
         </mso:group>
         <mso:group id="mso_c1.F5839" label="                                                                                                                                                                            .                                 ." autoScale="true">
           <mso:control idQ="mso:SelectAll" visible="true"/>
-          <mso:gallery idQ="mso:ThemeFontsGallery" showInRibbon="false" visible="true"/>
+          <mso:control idQ="mso:Font" visible="true"/>
           <mso:control idQ="mso:FontSizeIncreaseWord" label="Increase Font" visible="true"/>
           <mso:control idQ="mso:FontSizeDecreaseWord" label="Decrease Font" visible="true"/>
           <mso:control idQ="mso:Bold" visible="true"/>
