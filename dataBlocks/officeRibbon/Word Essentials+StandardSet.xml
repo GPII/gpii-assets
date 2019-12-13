@@ -101,6 +101,7 @@
           <mso:control idQ="mso:InsertNewComment" visible="true" />
           <mso:control idQ="mso:ReviewTrackChanges" visible="true" />
           <mso:control idQ="mso:ReviewAcceptOrRejectChangeDialog" label="Accept/Reject " visible="true" />
+          <mso:control idQ="mso:AccessibilityChecker" visible="true"/>
           <mso:gallery idQ="mso:Undo" showInRibbon="false" visible="true" />
           <mso:gallery idQ="mso:Redo" showInRibbon="false" visible="true" />
           <mso:control idQ="mso:SpellingAndGrammar" visible="true" />
